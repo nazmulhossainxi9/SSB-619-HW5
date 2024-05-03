@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSB-619 | Selector</title>
+    
+    <!-- custom css  -->
+    <link rel="stylesheet" href="../css/selector.css">
+
+    <!-- fav icon  -->
+    <link rel="icon" type="image" href="">
+</head>
+<body>
+    
+    <div class="container">
+        <a href="../index.html">Home </a>
+        <a href="formatting.html">Formatting</a>
+        <a href="selector.html">CSS_Selector </a>
+    </div>
+
+    <div class="selector">
+        <ol>
+            <li>
+                <h4>:focus Selector</h4>
+                <form class="focus">
+                    First name: <input type="text" name="firstname"><br>
+                    Last name: <input type="text" name="lastname">
+                </form>
+            </li>
+            <li>
+                <h4>:in-range Selector</h4>
+                <div class="in_range">
+                    <input type="number" min="5" max="10" value="8">
+                </div>
+            </li>
+            <li>
+                <h4>:last-child Selector</h4>
+                <div class="last">
+                    <span>I am from Mymensingh.</span> <br>
+                    <span>Are you okay now?</span> <br>
+                    <span>Life is beautiful.</span>
+                </div>
+            </li>
+            <li>
+                <h4>:last-of-type Selector</h4>
+                <div class="type">
+                    <span>Physics is an awesome subject.</span> <br>
+                    <span>Math is the language of the nature or universe</span> <br>
+                    <span>Is deep space scary?</span>
+                </div>
+            </li>
+            <li>
+                <h4>::marker Selector</h4>
+                <ul class="unlisted">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul>
+            </li>
+            <li>
+                <h4>:nth-child() Selector</h4>
+                <ul class="nth_child">
+                    <span>Upay</span>
+                    <span>DBBL</span>
+                    <span>Rocket</span>
+                    <span>Bkash</span>
+                </ul>
+            </li>
+            <li>
+                <h4>:nth-last-of-type() Selector</h4>
+                <ul class="nth_last">
+                    <span>Math</span>
+                    <span>English</span>
+                    <span>Physics</span>
+                    <span>Others</span>
+                </ul>
+            </li>
+            <li>
+                <h4>:only-child Selector</h4>
+                <div class="only_child">
+                    <p>Make me an offer that I can't refuse.</p>
+                </div>
+                <div class="only-child">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>Let's learn full stack web development.</span>
+                </div>
+            </li>
+            <li>
+                <h4>:out-of-range Selector</h4>
+                <div class="out-range">
+                    <input type="number" min="3" max="20" value="34">
+                </div>
+                
+            </li>
+            <li>
+                <h4>::placeholder Selector</h4>
+                <div class="placeholder">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                
+            </li>
+            <li>
+                <h4>:target Selector</h4>
+                <div class="links">
+                    <p><a href="#link1">Document 1</a></p>
+                    <p><a href="#link2">Document 2</a></p>
+                </div>
+                <div class="documnets">
+                    <span id="link1">Physics Is Fun</span> <br>
+                    <span id="link2">Python3 Used On Datascience</span>
+                </div>
+            </li>
+            
+        </ol>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ededed;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 2% 0;
+}
+
+.container a{
+    font-weight: 500;
+    margin-right: 20px;
+    background-color: white;
+    padding-bottom: 2%;
+    color: rgb(106, 0, 255);
+}
+
+.container a:hover{
+    border-bottom: 2px solid rgb(106, 0, 255);
+}
+
+/* <!-- Selector Starts --> */
+
+.selector{
+    margin-left: 5%;
+    margin-top: 2%;
+    line-height: 30px;
+}
+ol li{
+    margin-bottom: 2%;
+}
+
+/* <!-- :focus Selector --> */
+.focus input:focus{
+    background-color: rgb(208, 181, 255);
+}
+
+/* <!-- :in-range Selector --> */
+.in_range input:in-range {
+    border: 2px solid yellow;
+}
+
+/* <!-- :last-child Selector --> */
+.last span:last-child {
+    color: green;
+    font-size: 20px;
+}
+
+/* <!-- :last-of-type Selector --> */
+.type span:last-of-type {
+    color: rgb(201, 0, 70);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* <!-- ::marker Selector --> */
+.unlisted li{
+    margin-left: 30px;
+    line-height: 10px;
+}
+
+.unlisted ::marker {
+    color: rgb(201, 0, 70);
+}
+
+/* <!-- :nth-child() Selector --> */
+.nth_child span{
+    padding: 0.7% 2%;
+    border-radius: 50px;
+}
+
+.nth_child span:nth-child(4){
+    background-color: rgb(255, 0, 93);
+    color: whitesmoke;
+}
+
+/* <!-- :nth-last-of-type() Selector --> */
+.nth_last span{
+    padding: 0.7% 2%;
+    border-radius: 50px;
+}
+
+.nth_last span:nth-last-of-type(2){
+    background-color: rgb(255, 191, 0);
+    color: rgb(105, 105, 105);
+}
+
+/* <!-- :only-child Selector --> */
+.only_child p:only-child{
+    display: inline;
+    padding: 0.7% 2%;
+    background-color: rgb(115, 0, 255);
+    color: whitesmoke;
+}
+
+/* <!-- :range Selector --> */
+.out-range input:out-of-range{
+    border: 2px solid tomato;
+}
+
+/* <!-- ::placeholder Selector --> */
+.placeholder input{
+    padding: 1% 2%;
+}
+.placeholder input::placeholder{
+    color: red;
+    font-size: 15px;
+}
+
+/* <!-- :target Selector --> */
+:target{
+    background: rgb(252, 255, 175);
+}
+
+
+
+
